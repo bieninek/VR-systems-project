@@ -1,10 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - FollowCamera
+    - CharacterMovement
+    - SmoothCamera
     - movement
+    - rotationScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -37,21 +47,39 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 25312}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 26484}
+      Script: {instanceID: 2996}
+    - Class: 114
+      Script: {instanceID: 26738}
+    - Class: 114
+      Script: {instanceID: 32976}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -64,6 +92,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: bfbcd5e864a460c15a5cce44f51fc793
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: movement
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -256,6 +290,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b208446c148a6a05cf184bc7a309ed77
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SmoothCamera
   - hash:
       serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
@@ -882,17 +922,35 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: bfbcd5e864a460c15a5cce44f51fc793
+      Hash: 4bc923274f19abb9a931be7798330698
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: movement
+    className: DemoFree
   - hash:
       serializedVersion: 2
-      Hash: 1c35c7282f9ae812458d162346bf63b6
+      Hash: f5f71c22b3322a902b26621453f6e245
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: FollowCamera
+    className: SimpleSampleCharacterControl
+  - hash:
+      serializedVersion: 2
+      Hash: 0fde59565173a671731e9b44494064c1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FreeCameraLogic
+  - hash:
+      serializedVersion: 2
+      Hash: b1345b04ac1ed04ab7f8aba3ed04e179
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CharacterMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 8673829f6a3df6ee13b626e902a55a66
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: rotationScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/bbart/Desktop/studia/mgr/systemy VR/laby unity/build/VR-systems-project.exe
+  playerPath: C:/Users/bbart/Desktop/studia/mgr/systemy VR/laby unity/build 02/VR-systems-project.exe
