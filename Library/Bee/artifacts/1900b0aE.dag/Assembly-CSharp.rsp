@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/nowe rzeczy/github desktop/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/nowe rzeczy/github desktop/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/blink.cs"
 "Assets/CharacterMovement.cs"
 "Assets/FollowCamera.cs"
 "Assets/movement.cs"
